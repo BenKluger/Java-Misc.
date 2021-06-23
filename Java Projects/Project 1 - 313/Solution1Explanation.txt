@@ -1,0 +1,1 @@
+Solution 1 contains a file that states a singly-linked list, and contains a method that allows you to delete a node (nth from the end of the list).
