@@ -1,1 +1,3 @@
 Solution 1 contains a file that states a singly-linked list, and contains a method that allows you to delete a node (nth from the end of the list).
+Test 1 contains a linked list of the format: {1,2,3,4,5}, and removes the 1 in the list.
+Test 2 contains a linked list of the format: {1}, and removes that from the list, which returns an empty list.
