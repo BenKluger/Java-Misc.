@@ -1,0 +1,32 @@
+Create an Ordered Binary Search Tree with multiple functions, as well as a doubly-linked list alongside it that stays updated with the tree.
+
+
+//////// Instructions given:
+OrderedBSTree is a BST with an additional feature of maintaining an order of elements inserted
+into it.
+It supports the following operations:
+1. Insert(x) : insert elements into tree. Runtime ≤ O(lgN)
+2. Delete(x): delete elements from tree. Runtime ≤ O(lgN)
+3. getMin(): return min element, Runtime ≤ O(lgN)
+4. getMax(): return max element, Runtime ≤ O(lgN)
+5. getLast(): return last inserted element. Runtime is O(1)
+6. removeLast(): remove last inserted element. Runtime ≤ O(lgN)
+Example 1:
+OrderedBSTree tree = new OrderedBSTree();
+tree.insert(15);
+tree.insert(12);
+tree.insert(10);
+tree.insert(29);
+tree.insert(5);
+tree.insert(100);
+tree.insert(100);
+System.out.println(tree.getMax()); //100
+System.out.println(tree.getLast()); //100
+System.out.println(tree.removeLast()); //100
+System.out.println(tree.delete(100)); //false
+System.out.println(tree.getLast()); //5
+System.out.println(tree.getMin()); //5
+System.out.println(tree.getMax()); //29
+System.out.println(tree.delete(12)); //true
+System.out.println(tree.delete(12)); //false
+System.out.println(tree.insert(10)); //false
