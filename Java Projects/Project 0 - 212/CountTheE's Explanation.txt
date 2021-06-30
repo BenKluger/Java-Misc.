@@ -1,0 +1,1 @@
+This program allows the user to input a sentence. The output tells the user how many upper and lowercase E's were in that input.
